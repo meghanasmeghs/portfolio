@@ -39,7 +39,7 @@ export default function Navbar() {
               className="text-white group-hover:text-white transition-all duration-200"
               size="lg"
             />
-            <span className="text-white">Home</span>
+            <span className="text-white">Homesss</span>
           </a>
         </li>
 
