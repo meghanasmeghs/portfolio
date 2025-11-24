@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Add padding to the right content */
+.content-container {
+  padding-left: 16rem; /* width of sidebar (w-60 = 15rem) */
+}

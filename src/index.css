@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Apply Helvetica to entire website */
+* {
+  font-family: "Helvetica", "Arial", sans-serif;
+}

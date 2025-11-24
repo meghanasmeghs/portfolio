@@ -13,21 +13,21 @@ import Certificates from './Certificates';
 import Footer from './Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Internships />
-      <Certificates />
-      <Footer />
+      <div className="content-container">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Internships />
+        <Certificates />
+        <Contact />
+      </div>
     </>
-  )
+  );
 }
+
 
 export default App
