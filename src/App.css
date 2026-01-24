@@ -3,5 +3,8 @@
 @tailwind utilities;
 /* Add padding to the right content */
 .content-container {
-  padding-left: 16rem; /* width of sidebar (w-60 = 15rem) */
+  padding-left: 15rem; /* width of sidebar (w-60 = 15rem) */
+}
+body {
+  margin: 0;
 }

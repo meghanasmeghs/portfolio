@@ -1,12 +1,12 @@
 export default function About() {
     return (
-        <section id="about" className="py-16 bg-white">
+        <section id="about" className="py-16 bg-white ml-10">
             <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
                 <div className="text-center md:text-left">
                     <h2 className="text-3xl font-bold text-gray-800">About Me</h2>
-                    <p className="mt-6 text-gray-600 text-lg leading-relaxed">
-                        I’m a passionate <span className="font-semibold">Frontend Developer</span>
+                    <p className="mt-6 mb-5 text-gray-600 text-lg leading-relaxed">
+                        I’m a passionate <span className="font-semibold">Frontend Developer </span>
                         skilled in HTML, CSS, JavaScript, React, and UI/UX design.
                         I enjoy building responsive, user-friendly websites and have
                         worked on projects like{" "}
@@ -23,8 +23,8 @@ export default function About() {
 
                 <div className="flex justify-center">
                     <img
-                        src="/meghana.jpg" 
-                        alt="Meghana Usthili"
+                        src="/portfolio/me.jpg" 
+                        alt="Meghana"
                         className="rounded-2xl shadow-lg w-72 h-72 object-cover"
                     />
                 </div>
@@ -39,8 +39,8 @@ export default function About() {
             <p className="text-gray-600">Atria Institute of Technology — 2024</p>
           </div>
           <div className="p-4 border-l-4 border-purple-500 bg-gray-50 shadow rounded">
-            <h4 className="text-lg font-semibold text-gray-800">Bachelor’s Degree</h4>
-            <p className="text-gray-600">[Your College Name] — [Year]</p>
+            <h4 className="text-lg font-semibold text-gray-800">Bachelor of Science (BSc)</h4>
+            <p className="text-gray-600">SMT.Allum Sumangalamma Memorial College for Women's — 2022</p>
           </div>
         </div>
       </div>
