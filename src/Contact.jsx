@@ -6,13 +6,13 @@ export default function Contact() {
       
       <div className="mt-6 flex flex-col md:flex-row justify-center gap-6">
         <a
-          href="mailto:meghana@example.com"
+          href="mailto:meghs.in.0@gmail.com"
           className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
         >
           Email Me
         </a>
         <a
-          href="https://github.com/yourgithub"
+          href="https://github.com/meghanasmeghs"
           target="_blank"
           rel="noopener noreferrer"
           className="px-6 py-3 bg-gray-800 text-white rounded-lg shadow hover:bg-gray-900 transition"
@@ -20,7 +20,7 @@ export default function Contact() {
           GitHub
         </a>
         <a
-          href="https://linkedin.com/in/yourlinkedin"
+          href="https://www.linkedin.com/in/usthili-meghana/"
           target="_blank"
           rel="noopener noreferrer"
           className="px-6 py-3 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition"

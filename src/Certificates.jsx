@@ -1,6 +1,6 @@
 export default function Certificates() {
   return (
-    <section id="certificates" className="py-16 bg-white text-center">
+    <section id="certificates" className="py-16 bg-white text-center pl-10">
       <h2 className="text-3xl font-bold text-gray-800">Certificates</h2>
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         

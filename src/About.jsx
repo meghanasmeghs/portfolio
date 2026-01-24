@@ -4,7 +4,7 @@ export default function About() {
             <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
                 <div className="text-center md:text-left">
-                    <h2 className="text-3xl font-bold text-gray-800">About Me</h2>
+                    <h2 className="text-3xl text-center font-bold text-gray-800">About Me</h2>
                     <p className="mt-6 mb-5 text-gray-600 text-lg leading-relaxed">
                         I’m a passionate <span className="font-semibold">Frontend Developer </span>
                         skilled in HTML, CSS, JavaScript, React, and UI/UX design.

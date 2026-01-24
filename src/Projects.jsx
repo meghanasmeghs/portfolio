@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <section id="projects" className="py-16 bg-gray-50 text-center">
+    <section id="projects" className="py-16 bg-gray-50 text-center pl-10">
       <h2 className="text-3xl font-bold text-gray-800">Projects</h2>
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         
@@ -20,13 +20,6 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="p-6 bg-white shadow-lg rounded-lg">
-          <h3 className="text-xl font-semibold">UI/UX Designs</h3>
-          <p className="mt-3 text-gray-600">
-            Figma prototypes and design projects focusing on user experience and 
-            modern layouts.
-          </p>
-        </div>
 
       </div>
     </section>

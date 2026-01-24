@@ -52,19 +52,11 @@ export default function Skills() {
                 { name: "Figma", icon: <FaFigma />, level: "Advanced" },
                 { name: "VS Code", icon: <VscCode />, level: "Expert" },
             ],
-        },
-        // {
-        //     title: "Cybersecurity",
-        //     icon: <SiWireshark className="inline-block mr-2" />,
-        //     skills: [
-        //         { name: "Wireshark", icon: <SiWireshark />, level: "Advanced" },
-        //         { name: "Burp Suite", icon: <SiBurpsuite />, level: "Intermediate" },
-        //     ],
-        // },
+        }
     ];
 
     return (
-        <section id="skills" className="py-16 bg-gray-900 text-white">
+        <section id="skills" className="py-16 bg-gray-900 text-white pl-10">
             <h2 className="text-3xl font-bold text-center mb-12">
                 My <span className="text-purple-400">Skills</span>
             </h2>
